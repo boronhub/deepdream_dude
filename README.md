@@ -16,3 +16,4 @@ steps:
 3. use after effects, or a python script to join stylized images into video
 
 NOTE: each image takes 120 seconds to render on a GTX 1080.
+
