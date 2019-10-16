@@ -3,11 +3,11 @@ project files of deepdream video generator, similar to effect seen at https://ww
 
 
 requirements:
-tensorflow
-random
-matplotlib
-numpy
-scipy
+1.tensorflow
+2.random
+3.matplotlib
+4.numpy
+5.scipy
 
 steps:
 
