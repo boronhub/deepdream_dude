@@ -29,7 +29,7 @@ import PIL.Image
 import os
 
 layer_tensor = model.layer_tensors[1]
-myPath = 'E:/Dhruv/Projects_19-20/DeepDream/deep_dreaming_start/Dancing/pix'
+myPath = 'enter-path-here'
 myFiles = os.listdir(myPath)
 for f in myFiles:
     file_name = myPath + "/" + f
@@ -41,7 +41,7 @@ for f in myFiles:
     img_result = np.clip(img_result, 0.0, 255.0)
     img_result = img_result.astype(np.uint8)
     result = PIL.Image.fromarray(img_result, mode='RGB')
-    result.save(f'E:/Dhruv/Projects_19-20/DeepDream/deep_dreaming_start/output/dream_image_out_{f}')
+    result.save(f'enter-path-here/dream_image_out_{f}')
     result.show()
 
 
